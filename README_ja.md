@@ -13,6 +13,23 @@
 このシェルスクリプトを .bin と .cue ファイルのある場所に置いて、実行します。  
 ディレクトリ内の .bin と .cue ファイルを探して、.mp3ファイルに変換します。
 
+***参考例***
+$ chmod +x create_mp3.sh
+$ ls
+image.bin
+image.cue
+create.sh
+
+$ ./create_mp3.sh
+:  
+:  
+track01.mp3  
+track02.mp3  
+
+...  
+track14.mp3  
+  
+のようにCUEファイルの内容にしたがってmp3ファイルが生成されます。  
 
 ## 事前準備
 下記のパッケージが必要です  
